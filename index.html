@@ -455,7 +455,7 @@ opacity:0;
               <div class="flame"></div>
               <div class="flame2"></div>
               <div class="flame3"></div>
-              <div class="text">Happy Birthday!</div>
+              <div class="text">Happy Birthday!<br>Piyush</div>
               <div class="shadows"></div>
             </div>
             
@@ -566,10 +566,11 @@ opacity:0;
     <script>
     $(document).ready(function() {
     $(".candles").click(function(){
+      $(".text2").animate({"opacity": 0}, "fast");
       $(".flame").animate({"opacity": 0}, "fast");
       $(".flame2").animate({"opacity": 0}, "fast");
       $(".flame3").animate({"opacity": 0}, "fast");
-      $(".text").animate({"top": -90, "opacity": 1}, "fast");
+      $(".text").animate({"top": -150, "opacity": 1}, "fast");
     });
 });
 
